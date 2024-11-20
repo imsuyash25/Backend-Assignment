@@ -3,7 +3,7 @@
 To install and set up the Web App, follow these steps:
 Clone the repository: 
 ``` sh
-git clone <repository_url>
+git clone https://github.com/imsuyash25/Backend-Assignment.git
 ``` 
 
 * Install the required dependencies 
