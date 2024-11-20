@@ -1,12 +1,5 @@
-from accounts.models import User
 from rest_framework import serializers
 from movies.models import Collection, Movie
-
-
-class UserAuthSerializer(serializers.Serializer):
-    class Meta:
-        model = User
-        fields = ['username', 'password']
 
 
 class MoviesSerializer(serializers.ModelSerializer):

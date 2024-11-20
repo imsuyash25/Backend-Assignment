@@ -24,6 +24,10 @@ python manage.py migrate
 ```sh
 python manage.py runserver
 ```
+* Run TestCases
+```sh
+python manage.py test
+```
 
 # Sample Output
 
@@ -150,7 +154,7 @@ Response: Success
 - API : http://127.0.0.1:8000/collection/
 
 Response 
-```
+```sh
 {
   "is_success": true,
   "data": {
