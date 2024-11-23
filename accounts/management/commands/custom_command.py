@@ -13,4 +13,4 @@ class Command(BaseCommand):
             count.count = 0
             count.save()
         print(self.style.HTTP_SUCCESS("Counter reseted succesfully!"))
-        print("dsnfsgnsgnsfghs")
+        print("successsssss")
